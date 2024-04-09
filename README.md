@@ -3,7 +3,7 @@ Python script for extracting an EAAAA token from a Facebook Page.
 
 ## Installation
 ```
-https://github.com/kiryudev/FBPTE/
+git clone https://github.com/kiryudev/FBPTE/
 cd FBPTE
 python FBPTE.py
 ```
