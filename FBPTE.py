@@ -8,7 +8,8 @@ gry = "\033[90m"
 non = "\033[0m"
 
 def clear():
-    if 'linux' in sys.platform.lower():
+    platform = sys.platform.lower()
+    if 'linux' in platform:
         os.system('clear')
     elif 'win' in platform:
         os.system('cls')
